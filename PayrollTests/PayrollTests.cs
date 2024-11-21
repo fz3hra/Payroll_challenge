@@ -20,9 +20,9 @@ public class PayrollTests
     [Fact]
     public void Test1()
     {
-        var timeCard = new List<TimecardRecord>()
+        var timeCard = new List<ITimecardRecord>()
         {
-           new()
+           new TestTimecard()
         {
             EmployeeName = "Kyle James",
             EmployeeNumber = "110011",
@@ -34,7 +34,7 @@ public class PayrollTests
             Rate = 15.50m,
             Bonus = 0
         },
-        new()
+        new TestTimecard()
         {
             EmployeeName = "Kyle James",
             EmployeeNumber = "110011",
@@ -46,7 +46,7 @@ public class PayrollTests
             Rate = 15.50m,
             Bonus = 0
         },
-        new()
+        new TestTimecard()
         {
             EmployeeName = "Kyle James",
             EmployeeNumber = "110011",
@@ -58,7 +58,7 @@ public class PayrollTests
             Rate = 15.50m,
             Bonus = 0
         },
-        new()
+        new TestTimecard()
         {
             EmployeeName = "Kyle James",
             EmployeeNumber = "110011",
@@ -70,7 +70,7 @@ public class PayrollTests
             Rate = 15.50m,
             Bonus = 0
         },
-        new()
+        new TestTimecard()
         {
             EmployeeName = "Kyle James",
             EmployeeNumber = "110011",
@@ -82,7 +82,7 @@ public class PayrollTests
             Rate = 15.50m,
             Bonus = 0
         },
-        new()
+        new TestTimecard()
         {
             EmployeeName = "Kyle James",
             EmployeeNumber = "110011",
@@ -96,9 +96,9 @@ public class PayrollTests
         }
         };
 
-        var rateTable = new List<RateTableRow>()
+        var rateTable = new List<IRateTableRow>()
         {
-            new()
+            new TestRateTableRow()
             {
                 Job = "Laborer",
                 Dept = "001",
