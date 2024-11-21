@@ -1,0 +1,36 @@
+
+    // public PayrollController(PayrollService payrollService, PayrollDbContext context)
+    // {
+    //     _payrollService = payrollService;
+    //     _context = context;
+    // }
+
+//     public IActionResult Index()
+//     {
+//         var timeCards = _context.Timecards.ToList();
+//         var rateTable = _context.RateTable.ToList();
+//
+//         var result = _payrollService.SummarizePayRecord(timeCards, rateTable);
+//
+//         foreach (var summary in result)
+//         {
+//             var existing = _context.PaySummaries
+//                 .FirstOrDefault(p => 
+//                     p.EmployeeNumber == summary.EmployeeNumber && 
+//                     p.Job == summary.Job && 
+//                     p.Dept == summary.Dept);
+//             
+//             if (existing != null)
+//             {
+//                 _context.Entry(existing).CurrentValues.SetValues(summary);
+//             }
+//             else
+//             {
+//                 _context.PaySummaries.Add(summary);
+//             }
+//         }
+//
+//         _context.SaveChanges();
+//         return View(result);
+//     }
+// }

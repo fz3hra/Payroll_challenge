@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroll", "Payroll\Payroll.csproj", "{34099EF1-5330-4599-8ACE-9A35A73F9AE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollTests", "PayrollTests\PayrollTests.csproj", "{626341DA-CD21-4DDB-A423-A2CAD32624A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34099EF1-5330-4599-8ACE-9A35A73F9AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34099EF1-5330-4599-8ACE-9A35A73F9AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34099EF1-5330-4599-8ACE-9A35A73F9AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34099EF1-5330-4599-8ACE-9A35A73F9AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626341DA-CD21-4DDB-A423-A2CAD32624A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626341DA-CD21-4DDB-A423-A2CAD32624A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626341DA-CD21-4DDB-A423-A2CAD32624A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626341DA-CD21-4DDB-A423-A2CAD32624A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

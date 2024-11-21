@@ -1,0 +1,25 @@
+@model List<PaySummaryRecord>
+
+<h1>Payroll Summary</h1>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Employee Name</th>
+        <th>Total Hours</th>
+        <th>Total Pay</th>
+        <th>Rate of Pay</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var record in Model)
+    {
+        <tr>
+            <td>@record.EmployeeName</td>
+            <td>@record.TotalHours</td>
+            <td>@record.TotalPayAmount.ToString("C")</td>
+            <td>@record.RateOfPay.ToString("C")</td>
+        </tr>
+    }
+    </tbody>
+</table>
